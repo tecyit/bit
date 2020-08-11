@@ -41,6 +41,5 @@ services:
       - ./client/yarn.lock:/client-app/yarn.lock
     ports:
       - "3000:3000"
-
 volumes:
   db_data:
